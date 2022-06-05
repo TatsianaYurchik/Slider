@@ -13,12 +13,9 @@
 }
 @keyframes slide{
     0% {
-       
-        
         opacity: 70%;
     }
     100%{
-        
         opacity: 100%;  
     }
 }
@@ -34,7 +31,7 @@
     position: absolute;
     cursor: pointer;
     top: 50%;
-    padding: 20px;
+    padding: 20%;
 }
 .next{
     right: 0;
