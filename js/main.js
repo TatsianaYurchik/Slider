@@ -7,8 +7,8 @@ changeSlide (slideIndex);
 function autoSlider() {
     if (++slideIndex > slider.length) 
         slideIndex =1;
-    timer1 = setTimeout(changeSlide, 4000);
-    timer2 = setTimeout(autoSlider, 4000);
+    timer1 = setTimeout(changeSlide, 5000);
+    timer2 = setTimeout(autoSlider, 5000);
     
 }
 
@@ -18,8 +18,8 @@ function stop () {
 }
 
 function return_autoSlider (){
-    timer1 = setTimeout(changeSlide, 4000);
-    timer2 = setTimeout(autoSlider, 4000);
+    timer1 = setTimeout(changeSlide, 5000);
+    timer2 = setTimeout(autoSlider, 5000);
 }
 
 

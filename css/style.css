@@ -5,22 +5,20 @@
     height: auto;
     margin: auto;
     position: relative;
-    opacity: 90%;
+    
     
 }
 .slide_item{
-    animation: slide 3s forwards; 
+    animation: slide 2s forwards; 
 }
 @keyframes slide{
     0% {
        
-        /* left: 80%;
-        bottom: 8%; */
+        
         opacity: 70%;
     }
     100%{
-        /* left: 80%;
-        bottom: 8%; */
+        
         opacity: 100%;  
     }
 }
