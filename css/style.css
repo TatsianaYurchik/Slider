@@ -31,7 +31,7 @@
     position: absolute;
     cursor: pointer;
     top: 50%;
-    padding: 1rem;
+    padding: 2vh;
 }
 .next{
     right: 0;
